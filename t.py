@@ -3,12 +3,6 @@ try:
 	import random
 	import threading
 	import pyfiglet
-except:
-	
-	os.system('pip install requests')
-	os.system('pip install random')
-	os.system('pip install threading')
-	os.system('pip install pyfiglet')
 
 O = '\033[0;37m'
 Le = pyfiglet.figlet_format(' climed [:] ')
